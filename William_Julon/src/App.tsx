@@ -13,10 +13,8 @@ function App() {
       <Navbar />
 
       <main>
-        {/* Hero */}
         <MovieHero movie={featuredMovie} />
 
-        {/* Catalog */}
         <section className="mx-auto max-w-7xl px-6 py-16">
           <div className="mb-8 flex items-end justify-between">
             <div>
@@ -42,7 +40,6 @@ function App() {
 
         <Separator className="mx-auto max-w-7xl bg-white/5" />
 
-        {/* Promo banner */}
         <section className="mx-auto max-w-7xl px-6 py-16">
           <div className="relative overflow-hidden rounded-2xl border border-white/5 bg-gradient-to-r from-red-950/60 via-zinc-900 to-zinc-900 p-8 md:p-12">
             <div className="absolute -right-16 -top-16 size-64 rounded-full bg-red-600/10 blur-3xl" />
@@ -62,7 +59,6 @@ function App() {
           </div>
         </section>
 
-        {/* Footer */}
         <footer className="border-t border-white/5 py-10">
           <div className="mx-auto max-w-7xl px-6">
             <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
